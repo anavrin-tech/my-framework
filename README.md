@@ -13,8 +13,8 @@ E posteriormente usa-lo em futuros projetos.
 ![](newjs.png)
 
 # Etapas do Projeto
-[x] Implementar classe x
-[ ] Implementar classe y
+- [x] Implementar classe x
+- [ ] Implementar classe y
 
 ## Histórico de lançamentos
 <!-->
