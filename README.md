@@ -2,7 +2,6 @@
 > Como o proprio nome diz mais um framework javascript....
 
 [![author](https://img.shields.io/badge/author-anavrin-red.svg)](https://www.linkedin.com/in/david-borges-31891310a/)
-
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
