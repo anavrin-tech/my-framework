@@ -41,10 +41,6 @@ E posteriormente usa-lo em futuros projetos.
 
 ## Meta
 
-David Borges – [@david.borges](http://anavrin.tech) – david.borges@anavrin.tech
-
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
-
 [https://github.com/anavrin-tech](https://github.com/anavrin-tech/)
 
 ## Contributing
