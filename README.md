@@ -12,41 +12,12 @@ E posteriormente usa-lo em futuros projetos.
 
 ![](newjs.png)
 
-## __INFORMAÇÕES IMPORTANTES__ sobre o meu README.md
-
-As informações do README daqui para baixo sao exemplos ou modelos para ser preenchidos logo após o termino do projeto.
-
-## Instalação
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Esse projeto esta em desenvolvimento, tenho como intuito de deixa-lo o mais facil possivel, facilitando o entendimento onde qualquer um pode utiliza-lo em futuras versões deixa-lo totalmente em portugues.
-
-
-
-## Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-```sh
-make install
-npm test
-```
+# Etapas do Projeto
+[x] Implementar classe x
+[ ] Implementar classe y
 
 ## Histórico de lançamentos
-
+<!-->
 * 0.2.1
     * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
 * 0.2.0
@@ -57,23 +28,24 @@ npm test
 * 0.1.0
     * O primeiro lançamento adequado
     * MUDANÇA: Renomeia `foo()` para `bar()`
+    -->
 * 0.0.1
     * Trabalho em andamento
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+David Borges – [@david.borges](http://anavrin.tech) – david.borges@anavrin.tech
 
 Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 
-[https://github.com/yourname/github-link](https://github.com/othonalberto/)
+[https://github.com/anavrin-tech](https://github.com/anavrin-tech/)
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
+1. Faça o _fork_ do projeto (<https://https://github.com/anavrin-tech/my-framework>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b feature/qualquer`)
+3. Faça o _commit_ (`git commit -am 'Add some qualquer'`)
+4. _Push_ (`git push origin feature/qualquer`)
 5. Crie um novo _Pull Request_
 
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
