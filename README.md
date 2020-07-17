@@ -10,7 +10,7 @@ E posteriormente usa-lo em futuros projetos.
 
 ![](newjs.png)
 
-## Infomações sobre o meu README
+## __INFORMAÇÕES IMPORTANTES__ sobre o meu README.md
 
 As informações do README daqui para baixo sao exemplos ou modelos para ser preenchidos logo após o termino do projeto.
 
