@@ -1,9 +1,11 @@
 # Mais um Framework JS
 > Como o proprio nome diz mais um framework javascript....
 
+[![author](https://img.shields.io/badge/author-anavrin-red.svg)]
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/anavrin-tech)
 
 Esse projeto tem como objetivo criar um framework javascript, projeto de iniciativa propria para aprimorar meus conhecimentos em javascript.
 E posteriormente usa-lo em futuros projetos.
