@@ -14,17 +14,9 @@ class WebServer {
         console.log("Running on port: " + flagsParser.getPort());
     }
 
-    async run(){ 
+    async run(): Promise<void>{ 
         for await (const req of this.s){
-            var reqUrl = req.url;
-
-            var match = this.urlResolver.urlMatches('^/customer/\\d+/', reqUrl );
-
-            if (match)
-                req.respond({ body : "Bem vindo Pagina do cursos"});
-            else
-                req.respond({ body: "404 - page not found!!" });
-
+            this.urlResolver.getUrlController(req);
         }   
     }
 
