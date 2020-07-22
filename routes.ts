@@ -1,7 +1,10 @@
 import { ServerRequest } from "https://deno.land/std/http/server.ts";
 import { urls } from './myapp/urls.ts';
+import { PermissionMiddleware } from  './middlewares/permissions_middleware.ts';
 
 export class RouterResolver {
+
+    permissionMiddleware: PermissionMiddleware = new PermissionMiddleware();
 
     urlMatches(pattern: string, url : string) : boolean {
         var regexp = new RegExp(pattern);
@@ -11,16 +14,25 @@ export class RouterResolver {
 
     getUrlController(request: ServerRequest){
         var urlNotFound = false;
-        for (let set of urls){
+        for (let set of urls){           
             if(this.urlMatches(set.reg, request.url)){
-                urlNotFound = true;
-                set.controller.returnResponse(request);
+                if (this.permissionMiddleware.userIsAllowed(request)){
+                    urlNotFound = true;
+                    set.controller.returnResponse(request);
+                }else{
+                    urlNotFound = true;
+                    request.respond({
+                        body: 'Not allowed'
+                    });
+                }
             }
+            
         }
-        if(!urlNotFound)
+        if(!urlNotFound){
             request.respond({
                 body: '404'
-            });       
+            });
+        }       
     }
     
 }

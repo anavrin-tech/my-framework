@@ -16,7 +16,7 @@ E posteriormente usa-lo em futuros projetos.
 - [x] Criando a base do framework
 - [x] Criando sistema de rotas
 - [x] Criando sistema de camadas MVC
-- [ ] Criando sistema de middlewares de permissão
+- [x] Criando sistema de middlewares de permissão
 - [ ] Criando sistema de projetos e apps
 - [ ] Implementando as modificações para o sistema de apps e projetos genéri
 - [ ] Desenvolvendo um projeto para testar o framework

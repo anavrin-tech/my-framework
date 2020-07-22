@@ -5,5 +5,6 @@ import { ProfileController } from './profile_controller.ts';
 export var urls = [
     {reg: '^/customer/\\d+/', controller: new CustomerController() },
     {reg: '^/course/\\d+/', controller: new CourseController() },
-    {reg: '^/profile/\\d+/', controller: new ProfileController() }
+    {reg: '^/profile/$', controller: new ProfileController() },
+    {reg: '^/admin/$', controller: new ProfileController() }
 ]
